@@ -1,4 +1,11 @@
-# ip-check
+# CIDR Checker
+Check if an address falls in a range.
+Uses:
+- [Netmask](https://github.com/rs/node-netmask)
+- [Vue](https://github.com/vuejs/vue)
+- [BootstrapVue](https://github.com/bootstrap-vue/bootstrap-vue) 
+- [Vue CLI](https://github.com/vuejs/vue-cli) 
+
 
 ## Project setup
 ```
@@ -14,6 +21,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

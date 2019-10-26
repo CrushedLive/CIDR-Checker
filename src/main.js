@@ -1,12 +1,8 @@
-import 'mutationobserver-shim'
 import Vue from 'vue'
+import './plugins/components'
 import './plugins/bootstrap-vue'
-import App from './App.vue'
-import router from './plugins/router'
-import store from './plugins/store'
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app');
+  el: '#app',
+  render: h => h('bc-cidr-main')
+});
