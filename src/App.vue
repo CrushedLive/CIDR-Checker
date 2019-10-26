@@ -1,7 +1,7 @@
 <template>
     <b-container id="root" class="bg-dark" fluid @click="clearState">
         <b-row align-h="center" align-v="center" class="vh-100">
-            <b-col cols="6">
+            <b-col cols="6" xl="3">
                 <h1 class="text-light text-center mb-4">CIDR Checker</h1>
                 <b-list-group v-if="ips.length" class="mb-4">
                     <b-list-group-item v-for="(ip, i) in ips" :variant="matches(i)"
