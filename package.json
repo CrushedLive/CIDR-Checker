@@ -9,7 +9,7 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.19",
     "core-js": "^3.3.2",
-    "netmask": "^1.0.6",
+    "netmask": "^2.0.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
